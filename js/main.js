@@ -5,11 +5,13 @@ var weatherData = {};
 
 
 submitBtn.addEventListener('click', function(){
-    console.log(searchInput.value)
     getData(searchInput.value);
 })
 
 getData("cairo");
+
+
+console.log(weatherData);
 
 
 // Fetch data from the API
